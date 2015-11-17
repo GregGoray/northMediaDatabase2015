@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 public class GuiCtrl {
     Run run = new Run();
 
-    public Stage setPrimaryStage() {
+    public Stage getPrimaryStage() {
 
         return run.passPStage2Controller();
     }

@@ -25,7 +25,7 @@ public class LoginWindow  {
         vBox.getChildren().add(b1);
 
         b1.setOnAction(event -> {
-           guiCtrl.setPrimaryStage().setScene(ult.getUltimateSchedule());
+           guiCtrl.getPrimaryStage().setScene(ult.getUltimateSchedule());
         });
 
         Scene loginScene = new Scene(vBox, 345, 345);

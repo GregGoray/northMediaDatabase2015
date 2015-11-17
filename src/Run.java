@@ -1,4 +1,4 @@
-package Gui;
+import View.LoginWindow;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
@@ -12,5 +12,7 @@ public class Run extends Application{
     @Override
     public void start(Stage primaryStage) throws Exception {
 
+
+        primaryStage.show();
     }
 }

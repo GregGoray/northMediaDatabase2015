@@ -3,5 +3,5 @@ package Model;
 /**
  * Created by Bob on 11/17/2015.
  */
-public class Employee {
+public class Employee  {
 }

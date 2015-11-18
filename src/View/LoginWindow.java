@@ -31,7 +31,6 @@ public class LoginWindow  {
         Scene loginScene = new Scene(vBox, 345, 345);
         System.out.println("login scene");
         return loginScene;
-
     }
 
 

@@ -26,12 +26,10 @@ Stage primaryStage= new Stage();
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        //GuiCtrl guiCtrl = new GuiCtrl();
+
         LoginWindowCtrl loginWindowControl= new LoginWindowCtrl();
-        //primaryStage.setScene(guiCtrl.ctrGetLoginWindow(primaryStage));
         primaryStage.setScene(loginWindowControl.ctrGetLoginWindow(primaryStage));
-        //guiCtrl.setPrimaryStage().setScene(guiCtrl.ctrGetLoginWindow(primaryStage));
-       //primaryStage.setScene(loginWindow.setLoginScene(primaryStage));
+
 
         primaryStage.show();
     }

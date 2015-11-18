@@ -1,6 +1,6 @@
 package View;
 import Controllers.LoginWindowCtrl;
-
+import Run.Run;
 import Controllers.UltimateScheduleCtrl;
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -18,7 +18,7 @@ public class LoginWindow  {
 
 
     public Scene setLoginScene(Stage stage) {
-
+        Run run= new Run();
         UltimateScheduleCtrl ultimateScheduleCtrl= new UltimateScheduleCtrl();
         GuiCtrl guiCtrl= new GuiCtrl();
 
@@ -27,7 +27,8 @@ public class LoginWindow  {
         vBox.getChildren().add(b1);
 
         b1.setOnAction(event -> {
-           guiCtrl.setPrimaryStage().setScene(ultimateScheduleCtrl.ctrGetUltimateSchedule(stage));
+           //guiCtrl.setPrimaryStage().setScene(ultimateScheduleCtrl.ctrGetUltimateSchedule(stage));
+            run.passPStage2Controller().setScene(ultimateScheduleCtrl.ctrGetUltimateSchedule(stage));
         });
 
         Scene loginScene = new Scene(vBox, 345, 345);

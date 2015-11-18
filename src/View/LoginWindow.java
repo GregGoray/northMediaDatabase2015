@@ -1,6 +1,7 @@
 package View;
 import Controllers.LoginWindowCtrl;
 
+import Controllers.UltimateScheduleCtrl;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -16,8 +17,9 @@ public class LoginWindow  {
 
 
 
-    public Scene setLoginScene() {
-        UltimateSchedule ult = new UltimateSchedule();
+    public Scene setLoginScene(Stage stage) {
+
+        UltimateScheduleCtrl ultimateScheduleCtrl= new UltimateScheduleCtrl();
         GuiCtrl guiCtrl= new GuiCtrl();
 
         VBox vBox = new VBox();
@@ -25,11 +27,11 @@ public class LoginWindow  {
         vBox.getChildren().add(b1);
 
         b1.setOnAction(event -> {
-           guiCtrl.setPrimaryStage().setScene(ult.getUltimateSchedule());
+           guiCtrl.setPrimaryStage().setScene(ultimateScheduleCtrl.ctrGetUltimateSchedule(stage));
         });
 
         Scene loginScene = new Scene(vBox, 345, 345);
-        System.out.println("login scene");
+        stage.setScene(loginScene);
         return loginScene;
 
     }

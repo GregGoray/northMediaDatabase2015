@@ -2,8 +2,6 @@
 *.iml
 *.iws
 .DS_Store
-<<<<<<< HEAD
+
 out/
-=======
-Out/
->>>>>>> cb812bf0ec90269ff47a9d2de5acb4b0944579a7
+

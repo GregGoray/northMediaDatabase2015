@@ -30,7 +30,7 @@ Stage primaryStage= new Stage();
         LoginWindowCtrl loginWindowControl= new LoginWindowCtrl();
         primaryStage.setScene(loginWindowControl.ctrGetLoginWindow(primaryStage));
 
-
+        System.out.println("yeha");
         primaryStage.show();
     }
 

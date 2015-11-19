@@ -21,6 +21,7 @@ public class LoginWindow  {
         Run run= new Run();
         UltimateScheduleCtrl ultimateScheduleCtrl= new UltimateScheduleCtrl();
         GuiCtrl guiCtrl= new GuiCtrl();
+        UltimateSchedule ultimateSchedule= new UltimateSchedule();
 
         VBox vBox = new VBox();
         Button b1 = new Button("Log In");
@@ -28,7 +29,7 @@ public class LoginWindow  {
 
         b1.setOnAction(event -> {
            //guiCtrl.setPrimaryStage().setScene(ultimateScheduleCtrl.ctrGetUltimateSchedule(stage));
-            run.passPStage2Controller().setScene(ultimateScheduleCtrl.ctrGetUltimateSchedule(stage));
+            run.passPStage2Controller().setScene(ultimateSchedule.getUltimateSchedule(stage));
         });
 
         Scene loginScene = new Scene(vBox, 345, 345);

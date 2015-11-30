@@ -19,7 +19,7 @@ import javafx.stage.Stage;
  * Created by Bob on 11/17/2015.
  */
 public class Run extends Application {
-//LoginWindow loginWindow = new LoginWindow();
+LoginWindow loginWindow = new LoginWindow();
 
 Stage primaryStage= new Stage();
 
@@ -27,10 +27,8 @@ Stage primaryStage= new Stage();
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        LoginWindowCtrl loginWindowControl= new LoginWindowCtrl();
-        primaryStage.setScene(loginWindowControl.ctrGetLoginWindow(primaryStage));
 
-        System.out.println("yeha");
+        primaryStage.setScene(primaryStage);
         primaryStage.show();
     }
 

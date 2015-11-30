@@ -48,7 +48,7 @@ public class AvailabilityView {
         });
         availabilityBox.getChildren().addAll(datePicker, checkbox, goToUltimateScheduleButton, editProfileButton);
         availabilityViewScene= new Scene(availabilityBox,300,300);
-        availabilityViewScene.getStylesheets().add(AvailabilityView.class.getResource("style.css").toExternalForm());
+        //availabilityViewScene.getStylesheets().add(AvailabilityView.class.getResource("style.css").toExternalForm());
         availabilityViewStage= new Stage();
         availabilityViewStage.setScene(availabilityViewScene);
         availabilityViewStage.show();

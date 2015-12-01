@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="737c3ea4-2258-4744-9575-0506b2b1133f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Views/EditProfileView.class" afterPath="$PROJECT_DIR$/out/Views/EditProfileView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Views/LoginView.class" afterPath="$PROJECT_DIR$/out/Views/LoginView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Views/UltimateScheduleView.class" afterPath="$PROJECT_DIR$/out/Views/UltimateScheduleView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/LoginView.java" afterPath="$PROJECT_DIR$/src/Views/LoginView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NorthMediaDatabase2015.iws" />
@@ -33,7 +28,7 @@
       <file leaf-file-name="LoginView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Views/LoginView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6507177">
+            <state vertical-scroll-proportion="3.9666667">
               <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
               <folding />
             </state>
@@ -604,12 +599,12 @@
       <workItem from="1448895895679" duration="658000" />
       <workItem from="1448972414166" duration="19000" />
       <workItem from="1448972495236" duration="890000" />
-      <workItem from="1448975774071" duration="1037000" />
+      <workItem from="1448975774071" duration="1200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31568000" />
+    <option name="totallyTimeSpent" value="31731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="29" width="1370" height="772" extended-state="0" />
@@ -623,8 +618,8 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32730016" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22516556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32730016" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.77677226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2097489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -747,7 +742,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/LoginView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6507177">
+        <state vertical-scroll-proportion="3.9666667">
           <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
           <folding />
         </state>

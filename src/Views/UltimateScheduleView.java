@@ -13,16 +13,13 @@ public class UltimateScheduleView {
     Button logOutButton;
     Scene ultimateScheduleScene;
     Stage ultimateScheduleStage;
-    LoginController loginController;
+
 
     public void createUltimateScheduleView(){
         ultimateScheduleBox= new VBox();
         logOutButton= new Button("Log out");
         logOutButton.setOnAction(event -> {
             hideWindow();
-            loginController= new LoginController();
-            loginController.goBackToLoginView();
-
         });
         ultimateScheduleScene= new Scene(ultimateScheduleBox,300,300);
         ultimateScheduleBox.getChildren().addAll(logOutButton);
